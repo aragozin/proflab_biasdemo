@@ -1,6 +1,8 @@
 Java sampling bias demo for "Java profilers" lab
 ================================================
 
+Run `mvn compile` to compile classfiles.
+
 
 AllocationTest demo
 -------------------
@@ -20,5 +22,15 @@ CryptoBench demo
 SJK demo
 --------
 
+Version 1 (slow)
 
+    java -Xmx256m -cp bias-sjk-v1.jar;target/classes SjkBench # Windows verion
+
+    java -Xmx256m -cp bias-sjk-v1.jar:target/classes SjkBench # Unix verion
+
+Version 2 (fast)
+
+    java -Xmx256m -cp bias-sjk-v2.jar;target/classes SjkBench # Windows verion
+
+    java -Xmx256m -cp bias-sjk-v2.jar:target/classes SjkBench # Unix verion
 
