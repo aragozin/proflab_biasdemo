@@ -7,7 +7,7 @@ Run `mvn compile` to compile classfiles.
 AllocationTest demo
 -------------------
 
-    java -Xmx256m -XX:+UnlockDiagnosticVMOptions -XX:+DebugNonSafepoints -cp target/classes AllocatioNTest
+    java -Xmx256m -XX:+UnlockDiagnosticVMOptions -XX:+DebugNonSafepoints -cp target/classes AllocationBench
 
 
 CryptoBench demo
